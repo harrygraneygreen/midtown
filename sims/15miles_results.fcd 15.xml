@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-24 11:56:58 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="midtown.net.xml"/>
+        <route-files value="midtown.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="./15miles_results.fcd.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="54470"/>
+        <step-length value="0.0166666666666667"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="60820"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="freeway.gui.xml"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.000">
+        <vehicle id="ego" x="279.530" y="212.690" z="0.000" angle="0.000" type="DEFAULT_VEHTYPE" speed="2.967" pos="19.790" lane="20_2" slope="0.000"/>
+    </timestep>
+</fcd-export>
